@@ -1,0 +1,28 @@
+# Ignore Spyder project configuration backups
+.spyproject/config/backups/*
+
+# Ignore Spyder project configuration files
+.spyproject/config/*
+
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore specific Python bytecode files
+ocr_main.pyc
+constants/__pycache__/const.pyc
+
+# Ignore Jupyter Notebook checkpoints
+resources/*.ipynb_checkpoints/*
+
+# Ignore utility module bytecode files
+utilities/__pycache__/*
+
+# Ignore specific utility module bytecode files (optional, more specific)
+# utilities/__pycache__/face_detection_utils.pyc
+# utilities/__pycache__/face_matching_utils.pyc
+# utilities/__pycache__/helper.pyc
+# utilities/__pycache__/image_io_utils.pyc
+# utilities/__pycache__/image_processing_utils.pyc
+# utilities/__pycache__/liveness_recognition_model_utils.pyc
+# utilities/__pycache__/model_utils.pyc
+# utilities/__pycache__/ocr_model_utils.pyc
